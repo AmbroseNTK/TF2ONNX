@@ -118,6 +118,9 @@ $ gcloud compute scp <ACCOUNT>@<VPS>:/tmp/converted.onnx <LOCAL_DIR>
 Sau khi hoàn tất, file converted.onnx sẽ được copy đến vị trí LOCAL_DIR trên máy bạn
 
 ### 3. Import vào Inference Model Library
+
+Cài đặt Python 3.6 cho Windows.
+
 Thực hiện cài [extension](https://visualstudio.microsoft.com/downloads/ai-tools-vs/) trên Visual Studio 2017.
 
 Tạo Project loại: Model Inference Library
