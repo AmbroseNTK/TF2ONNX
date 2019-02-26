@@ -40,7 +40,7 @@ Tiến hành Training model
 ```bash
 ~ $ cd TF2ONNX
 /TF2ONNX $  python3 retrain.py --image_dir flowers
-/TF2ONNX cd ../
+/TF2ONNX $ cd ../
 ```
 Sau khi quá trình training hoàn tất, tất cả kết quả được lưu ở thư mục **root:/tmp/**
 Bạn đã nhận được mô hình NN nhận dạng hoa: 
